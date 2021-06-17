@@ -85,7 +85,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -97,7 +97,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <spring.platformVersion>4.3.13.RELEASE</spring.platformVersion>
+        <spring.platformVersion>4.3.14.RELEASE</spring.platformVersion>
         <ognl.version>3.2.5</ognl.version>
         <asm.version>5.2</asm.version>
         <tiles.version>3.0.8</tiles.version>
@@ -611,7 +611,7 @@
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
-                <version>2.3.28</version>
+                <version>2.3.30</version>
             </dependency>
 
             <dependency>
@@ -921,7 +921,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
-                <version>${spring.platformVersion}</version>
+                <version>4.3.14.RELEASE</version>
             </dependency>
 
             <dependency>
@@ -1003,7 +1003,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>5.14.10</version>
+                <version>7.3.0</version>
                 <scope>compile</scope>
                 <optional>true</optional>
             </dependency>
@@ -1102,7 +1102,7 @@
             <dependency>
 		        <groupId>org.springframework</groupId>
 		        <artifactId>spring-web</artifactId>
-		        <version>3.1.1.RELEASE</version>
+		        <version>4.3.14.RELEASE</version>
 	        </dependency>
 
         </dependencies>
